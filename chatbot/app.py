@@ -22,7 +22,7 @@ prompt=ChatPromptTemplate.from_messages(
 
 ## streamlit framework
 
-st.title('Langchain Demo With OPENAI API')
+st.title('Chatbot With OPENAI API and LangChain')
 input_text=st.text_input("Search the topic u want")
 
 # openAI LLm 

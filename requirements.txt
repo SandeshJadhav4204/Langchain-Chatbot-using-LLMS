@@ -1,8 +1,8 @@
-langchain_openai 
-langchain_core
+langchain_openai==0.1.7
+langchain_core>=0.1.52,<0.2.0  # This should satisfy both langchain-community and langchain-openai
 python-dotenv
 streamlit
-langchain_community
+langchain_community==0.0.38
 langserve
 fastapi
 uvicorn
@@ -14,10 +14,10 @@ faiss-cpu
 groq
 cassio
 beautifulsoup4
-langchain-groq
+langchain-groq==0.1.5
 wikipedia
 arxiv
-langchainhub
+langchainhub==0.1.20
 sentence_transformers
 PyPDF2
-langchain-objectbox
+langchain-objectbox==0.1.0
